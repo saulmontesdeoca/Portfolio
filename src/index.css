@@ -1,13 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'SF Mono','Calibre', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0a192f;
+  color: rgb(206, 215, 243);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-close {
+  color: rgb(145, 252, 220)!important
+}
+
+.light-color {
+  color: rgb(145, 252, 220);
+}
+.light-color:hover {
+  color: rgb(164, 255, 228);
+}
+
+.bright-color {
+  color: rgb(206, 215, 243);
+}
+
+.bright-color:hover {
+  color: rgb(145, 252, 220);
+}
+
+.f-24 {
+  font-size: 24px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.nintendo-font {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.main {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1600px;
+  min-height: 100vh;
+  padding: 200px 150px;
+}
+
+.navbar-bg {
+  background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  user-select: auto !important;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  top: 0px;
+  z-index: 11;
+  width: 100%;
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+
+}
+
+@media(prefers-reduced-motion: no-preference){
+  .down {
+    height: 100px;
+    transform: translateY(calc(100px * -1));
+    background-color: rgba(10, 25, 47, 0.85);
+    box-shadow: 0 10px 30px -10px rgba(2,12,27,0);
+  }
+}
+
+@media(prefers-reduced-motion: no-preference){
+  .up {
+    height: 100px;
+    transform: translateY(0px);
+    background-color: rgba(10, 25, 47, 0.85);
+    box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.065);
+  }
 }
