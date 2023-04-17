@@ -19,7 +19,7 @@ const Intro = () => {
                 </Row>
                 <Row>
                     <Col md={12}>
-                        <h2 className='mt-2 mb-3 subtitle-font' style={{color: 'rgb(138, 147, 173)'}}>i'm a software neurosurgeon</h2>
+                        <h2 className='mt-2 mb-3 subtitle-font' style={{color: 'rgb(138, 147, 173)'}}>i'm a software neurosurgeon 👾</h2>
                     </Col>
                 </Row>
                 <Row>

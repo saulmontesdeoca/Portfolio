@@ -13,8 +13,6 @@ const Home = () => {
             <Navbar/>
             <div className='main'>
                 <Intro/>
-                <Intro/>
-                <Intro/>
                 <About/>
                 <Experience/>
                 <Projects/>
