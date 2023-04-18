@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const router = createBrowserRouter([
   {
@@ -12,10 +13,20 @@ const router = createBrowserRouter([
   },
 ]);
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#91FCDC'
+    }
+  }
+});
+
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <ThemeProvider theme={theme}>
+        <RouterProvider router={router} />
+      </ThemeProvider>
     </div>
   );
 }

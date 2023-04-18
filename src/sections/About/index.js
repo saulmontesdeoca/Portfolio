@@ -1,9 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Chip from '@mui/material/Chip';
-import { teal } from '@mui/material/colors';
-
-// const tealColor = teal[A100];
 
 const About = () => {
     return (
@@ -12,7 +9,7 @@ const About = () => {
                 <Row>
                     <Col sm={12} md={6}>
                         <Row>
-                            <h2 className='section-subtitle'>About</h2>
+                            <h2 className='section-subtitle'>about</h2>
                         </Row>
                     </Col>
                     <Col sm={12} md={6} />
@@ -40,11 +37,12 @@ const About = () => {
                         </Row>
                         <Row>
                             <Col>
-                                <Chip className='m-1' label="👾 Javascript" color='info' variant="outlined"/>
-                                <Chip className='m-1' label="🐍 Python" color='info' variant="outlined"/>
-                                <Chip className='m-1' label="⚛️ React" color='info' variant="outlined"/>
-                                <Chip className='m-1' label="🚀 Flask" color='info' variant="outlined"/>
-                                <Chip className='m-1' label="🐳 Docker" color='info' variant="outlined"/>
+                                <Chip className='m-1' label="👾 javascript" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
+                                <Chip className='m-1' label="🐍 python" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
+                                <Chip className='m-1' label="⚛️ react" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
+                                <Chip className='m-1' label="🚀 flask" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
+                                <Chip className='m-1' label="📊 dash" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
+                                <Chip className='m-1' label="🐳 docker" color='primary' variant="outlined" style={{fontFamily: 'Courier'}} onClick={()=>{}}/>
                             </Col>
                         </Row>
                     </Col>
