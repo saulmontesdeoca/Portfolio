@@ -370,6 +370,7 @@ ul {
 .project-item .project-content {
   position: relative;
   grid-area: 1 / 1 / -1 / 7;
+
 }
 
 @media (max-width: 1080px){
@@ -377,7 +378,8 @@ ul {
     grid-column: 5 / -1;
   }
   .project-item .project-content {
-    grid-column: 1 / 9;
+    grid-column: 1 / -1;
+    padding: 40px 40px 30px;
   }
   .project-item .project-image img {
       bottom: 0;
@@ -581,7 +583,7 @@ ul {
     grid-column: 1 / -1;
   }
   .project-item .project-image {
-    grid-column: 1 / 8;
+    grid-column: 1 / -1;
     height: 100%;
     opacity: 0.25;
   }
