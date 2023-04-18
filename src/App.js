@@ -1,24 +1,24 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './App.css';
-import Home from './pages/Home';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
 ]);
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#91FCDC'
-    }
-  }
+      main: "#91FCDC",
+    },
+    secondary: {
+      main: "#A8B2D1",
+    },
+  },
 });
 
 function App() {

@@ -19,7 +19,7 @@ const About = () => {
                         <Row>
                             <p className='text-wrap f-20 mt-4' style={{color: 'rgb(138, 147, 173)'}}>
                                 hey! my name is Saul and i'm a <span className='light-color'>software engineer</span> based
-                                in the vibrant city of <span className='light-color'>berlin.</span> 
+                                in the vibrant city of <span className='light-color'>berlin. </span> 
                                 My coding journey kicked off in 2017, with a focus on web development, 
                                 and I've been on an epic quest for code excellence ever since.
                             </p>
