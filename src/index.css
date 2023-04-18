@@ -259,6 +259,10 @@ a:hover {
   padding: 100px 0px;
 }
 
+.py-200 {
+  padding: 200px 0px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -544,6 +548,11 @@ ul {
   font-family: 'Courier';
   color: #a8b2d1;
   margin: 5px;
+}
+
+#contact h2 {
+  font-size: clamp(50px, 9vw, 80px);
+  font-family: 'Press Start 2P', cursive;
 }
 
 @media (max-width: 1080px){
